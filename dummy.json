@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "nama":"user1",
+            "role":"backend"
+        },{
+            "nama":"user2",
+            "role":"backend"
+        },{
+            "nama":"user3",
+            "role":"backend"
+        },{
+            "nama":"user4",
+            "role":"backend"
+        },{
+            "nama":"user5",
+            "role":"backend"
+        }
+    ]
+}

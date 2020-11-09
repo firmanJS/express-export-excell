@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=Windows-1252\">
+<title>Export Excell</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th>No.</th>
+      <th>Nama</th>
+      <th>Role</th>
+    </tr>
+    <% var no = 1; for (var i = 0; i < res.data.length; i++) { %>
+    <tr>
+      <td width='10px'><%= no %></td>
+      <td width='300px'><%= res.data[i].nama %></td>
+      <td width='250px' align='center'><%= res.data[i].role %></td>
+    </tr>
+    <% no++ } %>
+  </table>
+</body>
+</html>
